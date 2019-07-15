@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "337352259642",
+    "firebase_url": "https://facultypayment-f85fb.firebaseio.com",
+    "project_id": "facultypayment-f85fb",
+    "storage_bucket": "facultypayment-f85fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337352259642:android:f247e2ca95823d70",
+        "android_client_info": {
+          "package_name": "com.example.android.facultypayment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "337352259642-5ug2tdt4okkdneq6e5uj81pgr1id8gh9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.facultypayment",
+            "certificate_hash": "a8cacbf5e98b20b8b1585a543b0152cfb6fdd54a"
+          }
+        },
+        {
+          "client_id": "337352259642-t3ttqpvsm6tj1bmqe5rf17u17dmn3fc9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBju6yDch_2NIDdR8Ogvr3YhZSNOvdF30I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "337352259642-t3ttqpvsm6tj1bmqe5rf17u17dmn3fc9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

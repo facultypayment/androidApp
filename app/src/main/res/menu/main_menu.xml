@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!--<item
+        android:id="@+id/main_all_btn"
+        android:title="All Users"/>
+    <item
+        android:id="@+id/requests_btn"
+        android:title="Friend Requests" />
+
+    <item
+        android:id="@+id/all_transactions"
+        android:title="All Transactions" />
+
+    <item
+        android:id="@+id/logout_btn"
+        android:title="Logout" />-->
+
+
+</menu>

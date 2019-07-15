@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    app:cardBackgroundColor="#eee"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="7dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+
+            android:layout_alignParentStart="true"
+            android:ellipsize="end"
+            android:maxLines="1"/>
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="date"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:layout_below="@+id/name"
+            android:textColor="@android:color/black"
+            android:ellipsize="end"
+            android:maxLines="1"/>
+        <TextView
+            android:id="@+id/amt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paid you    "
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_below="@+id/date"
+            android:textColor="@android:color/holo_red_light"
+            android:textStyle="bold"
+            android:ellipsize="end"
+            android:maxLines="1"/>
+        <TextView
+            android:id="@+id/amtNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="this"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_below="@+id/date"
+            android:layout_toRightOf="@id/amt"
+            android:textColor="@android:color/holo_blue_light"
+            android:ellipsize="end"
+            android:maxLines="1"/>
+
+        <Button
+            android:id="@+id/receive"
+
+            android:layout_below="@+id/date"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="60dp"
+
+            android:text="received"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"/>
+            <!--android:background="@drawable/roundedbutton"-->
+
+
+        <Button
+            android:id="@+id/dnr"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/receive"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="-60dp"
+
+            android:text="did not receive"
+            android:background="@drawable/buttonshape1"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"/>
+            <!--android:background="@drawable/roundedbutton1"-->
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
